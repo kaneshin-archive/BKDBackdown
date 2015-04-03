@@ -7,12 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		79BEA5B41ACED01200A9EE06 /* BKDBackdown OSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEA5B31ACED01200A9EE06 /* BKDBackdown OSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79BEA5BA1ACED01200A9EE06 /* BKDBackdown OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BEA5AE1ACED01200A9EE06 /* BKDBackdown OSX.framework */; };
-		79BEA5C11ACED01200A9EE06 /* BKDBackdown_OSXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BEA5C01ACED01200A9EE06 /* BKDBackdown_OSXTests.m */; };
-		79BEA5D21ACED04200A9EE06 /* BKDBackdown iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEA5D11ACED04200A9EE06 /* BKDBackdown iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79BEA5D81ACED04200A9EE06 /* BKDBackdown iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BEA5CD1ACED04200A9EE06 /* BKDBackdown iOS.framework */; };
-		79BEA5DF1ACED04200A9EE06 /* BKDBackdown_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BEA5DE1ACED04200A9EE06 /* BKDBackdown_iOSTests.m */; };
+		79BEA5B41ACED01200A9EE06 /* BKDBackdown.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEA5B31ACED01200A9EE06 /* BKDBackdown.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79BEA5BA1ACED01200A9EE06 /* BKDBackdown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BEA5AE1ACED01200A9EE06 /* BKDBackdown.framework */; };
+		79BEA5C11ACED01200A9EE06 /* BKDBackdownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BEA5C01ACED01200A9EE06 /* BKDBackdownTests.m */; };
+		79BEA5D81ACED04200A9EE06 /* BKDBackdown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BEA5CD1ACED04200A9EE06 /* BKDBackdown.framework */; };
+		79BEA8C51ACED2CF00A9EE06 /* autolink.c in Sources */ = {isa = PBXBuildFile; fileRef = 79BEA8B31ACED2CF00A9EE06 /* autolink.c */; };
+		79BEA8C61ACED2CF00A9EE06 /* autolink.c in Sources */ = {isa = PBXBuildFile; fileRef = 79BEA8B31ACED2CF00A9EE06 /* autolink.c */; };
+		79BEA8C71ACED2CF00A9EE06 /* autolink.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEA8B41ACED2CF00A9EE06 /* autolink.h */; };
+		79BEA8C81ACED2CF00A9EE06 /* autolink.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEA8B41ACED2CF00A9EE06 /* autolink.h */; };
+		79BEA8C91ACED2CF00A9EE06 /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 79BEA8B51ACED2CF00A9EE06 /* buffer.c */; };
+		79BEA8CA1ACED2CF00A9EE06 /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 79BEA8B51ACED2CF00A9EE06 /* buffer.c */; };
+		79BEA8CB1ACED2CF00A9EE06 /* buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEA8B61ACED2CF00A9EE06 /* buffer.h */; };
+		79BEA8CC1ACED2CF00A9EE06 /* buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEA8B61ACED2CF00A9EE06 /* buffer.h */; };
+		79BEA8CD1ACED2CF00A9EE06 /* common.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEA8B71ACED2CF00A9EE06 /* common.h */; };
+		79BEA8CE1ACED2CF00A9EE06 /* common.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEA8B71ACED2CF00A9EE06 /* common.h */; };
+		79BEA8CF1ACED2CF00A9EE06 /* escape.c in Sources */ = {isa = PBXBuildFile; fileRef = 79BEA8B81ACED2CF00A9EE06 /* escape.c */; };
+		79BEA8D01ACED2CF00A9EE06 /* escape.c in Sources */ = {isa = PBXBuildFile; fileRef = 79BEA8B81ACED2CF00A9EE06 /* escape.c */; };
+		79BEA8D11ACED2CF00A9EE06 /* escape.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEA8B91ACED2CF00A9EE06 /* escape.h */; };
+		79BEA8D21ACED2CF00A9EE06 /* escape.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEA8B91ACED2CF00A9EE06 /* escape.h */; };
+		79BEA8D31ACED2CF00A9EE06 /* escape_href.c in Sources */ = {isa = PBXBuildFile; fileRef = 79BEA8BA1ACED2CF00A9EE06 /* escape_href.c */; };
+		79BEA8D41ACED2CF00A9EE06 /* escape_href.c in Sources */ = {isa = PBXBuildFile; fileRef = 79BEA8BA1ACED2CF00A9EE06 /* escape_href.c */; };
+		79BEA8D51ACED2CF00A9EE06 /* escape_html.c in Sources */ = {isa = PBXBuildFile; fileRef = 79BEA8BB1ACED2CF00A9EE06 /* escape_html.c */; };
+		79BEA8D61ACED2CF00A9EE06 /* escape_html.c in Sources */ = {isa = PBXBuildFile; fileRef = 79BEA8BB1ACED2CF00A9EE06 /* escape_html.c */; };
+		79BEA8D71ACED2CF00A9EE06 /* html.c in Sources */ = {isa = PBXBuildFile; fileRef = 79BEA8BC1ACED2CF00A9EE06 /* html.c */; };
+		79BEA8D81ACED2CF00A9EE06 /* html.c in Sources */ = {isa = PBXBuildFile; fileRef = 79BEA8BC1ACED2CF00A9EE06 /* html.c */; };
+		79BEA8D91ACED2CF00A9EE06 /* html.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEA8BD1ACED2CF00A9EE06 /* html.h */; };
+		79BEA8DA1ACED2CF00A9EE06 /* html.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEA8BD1ACED2CF00A9EE06 /* html.h */; };
+		79BEA8DB1ACED2CF00A9EE06 /* html_blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEA8BE1ACED2CF00A9EE06 /* html_blocks.h */; };
+		79BEA8DC1ACED2CF00A9EE06 /* html_blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEA8BE1ACED2CF00A9EE06 /* html_blocks.h */; };
+		79BEA8DD1ACED2CF00A9EE06 /* html_smartypants.c in Sources */ = {isa = PBXBuildFile; fileRef = 79BEA8BF1ACED2CF00A9EE06 /* html_smartypants.c */; };
+		79BEA8DE1ACED2CF00A9EE06 /* html_smartypants.c in Sources */ = {isa = PBXBuildFile; fileRef = 79BEA8BF1ACED2CF00A9EE06 /* html_smartypants.c */; };
+		79BEA8DF1ACED2CF00A9EE06 /* markdown.c in Sources */ = {isa = PBXBuildFile; fileRef = 79BEA8C01ACED2CF00A9EE06 /* markdown.c */; };
+		79BEA8E01ACED2CF00A9EE06 /* markdown.c in Sources */ = {isa = PBXBuildFile; fileRef = 79BEA8C01ACED2CF00A9EE06 /* markdown.c */; };
+		79BEA8E11ACED2CF00A9EE06 /* markdown.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEA8C11ACED2CF00A9EE06 /* markdown.h */; };
+		79BEA8E21ACED2CF00A9EE06 /* markdown.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEA8C11ACED2CF00A9EE06 /* markdown.h */; };
+		79BEA8E31ACED2CF00A9EE06 /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 79BEA8C21ACED2CF00A9EE06 /* stack.c */; };
+		79BEA8E41ACED2CF00A9EE06 /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 79BEA8C21ACED2CF00A9EE06 /* stack.c */; };
+		79BEA8E51ACED2CF00A9EE06 /* stack.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEA8C31ACED2CF00A9EE06 /* stack.h */; };
+		79BEA8E61ACED2CF00A9EE06 /* stack.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEA8C31ACED2CF00A9EE06 /* stack.h */; };
+		79BEA8E71ACED2CF00A9EE06 /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEA8C41ACED2CF00A9EE06 /* version.h */; };
+		79BEA8E81ACED2CF00A9EE06 /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEA8C41ACED2CF00A9EE06 /* version.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,18 +67,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		79BEA5AE1ACED01200A9EE06 /* BKDBackdown OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "BKDBackdown OSX.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79BEA5AE1ACED01200A9EE06 /* BKDBackdown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BKDBackdown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79BEA5B21ACED01200A9EE06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		79BEA5B31ACED01200A9EE06 /* BKDBackdown OSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BKDBackdown OSX.h"; sourceTree = "<group>"; };
+		79BEA5B31ACED01200A9EE06 /* BKDBackdown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BKDBackdown.h; sourceTree = "<group>"; };
 		79BEA5B91ACED01200A9EE06 /* BKDBackdown OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BKDBackdown OSXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79BEA5BF1ACED01200A9EE06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		79BEA5C01ACED01200A9EE06 /* BKDBackdown_OSXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BKDBackdown_OSXTests.m; sourceTree = "<group>"; };
-		79BEA5CD1ACED04200A9EE06 /* BKDBackdown iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "BKDBackdown iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		79BEA5D01ACED04200A9EE06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		79BEA5D11ACED04200A9EE06 /* BKDBackdown iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BKDBackdown iOS.h"; sourceTree = "<group>"; };
+		79BEA5C01ACED01200A9EE06 /* BKDBackdownTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BKDBackdownTests.m; sourceTree = "<group>"; };
+		79BEA5CD1ACED04200A9EE06 /* BKDBackdown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BKDBackdown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79BEA5D71ACED04200A9EE06 /* BKDBackdown iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BKDBackdown iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		79BEA5DD1ACED04200A9EE06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		79BEA5DE1ACED04200A9EE06 /* BKDBackdown_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BKDBackdown_iOSTests.m; sourceTree = "<group>"; };
+		79BEA8B31ACED2CF00A9EE06 /* autolink.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = autolink.c; sourceTree = "<group>"; };
+		79BEA8B41ACED2CF00A9EE06 /* autolink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = autolink.h; sourceTree = "<group>"; };
+		79BEA8B51ACED2CF00A9EE06 /* buffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = buffer.c; sourceTree = "<group>"; };
+		79BEA8B61ACED2CF00A9EE06 /* buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
+		79BEA8B71ACED2CF00A9EE06 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		79BEA8B81ACED2CF00A9EE06 /* escape.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = escape.c; sourceTree = "<group>"; };
+		79BEA8B91ACED2CF00A9EE06 /* escape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = escape.h; sourceTree = "<group>"; };
+		79BEA8BA1ACED2CF00A9EE06 /* escape_href.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = escape_href.c; sourceTree = "<group>"; };
+		79BEA8BB1ACED2CF00A9EE06 /* escape_html.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = escape_html.c; sourceTree = "<group>"; };
+		79BEA8BC1ACED2CF00A9EE06 /* html.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = html.c; sourceTree = "<group>"; };
+		79BEA8BD1ACED2CF00A9EE06 /* html.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = html.h; sourceTree = "<group>"; };
+		79BEA8BE1ACED2CF00A9EE06 /* html_blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = html_blocks.h; sourceTree = "<group>"; };
+		79BEA8BF1ACED2CF00A9EE06 /* html_smartypants.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = html_smartypants.c; sourceTree = "<group>"; };
+		79BEA8C01ACED2CF00A9EE06 /* markdown.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = markdown.c; sourceTree = "<group>"; };
+		79BEA8C11ACED2CF00A9EE06 /* markdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = markdown.h; sourceTree = "<group>"; };
+		79BEA8C21ACED2CF00A9EE06 /* stack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stack.c; sourceTree = "<group>"; };
+		79BEA8C31ACED2CF00A9EE06 /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		79BEA8C41ACED2CF00A9EE06 /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79BEA5BA1ACED01200A9EE06 /* BKDBackdown OSX.framework in Frameworks */,
+				79BEA5BA1ACED01200A9EE06 /* BKDBackdown.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79BEA5D81ACED04200A9EE06 /* BKDBackdown iOS.framework in Frameworks */,
+				79BEA5D81ACED04200A9EE06 /* BKDBackdown.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,10 +132,8 @@
 		79BEA5A11ACECF3E00A9EE06 = {
 			isa = PBXGroup;
 			children = (
-				79BEA5B01ACED01200A9EE06 /* BKDBackdown OSX */,
-				79BEA5BD1ACED01200A9EE06 /* BKDBackdown OSXTests */,
-				79BEA5CE1ACED04200A9EE06 /* BKDBackdown iOS */,
-				79BEA5DB1ACED04200A9EE06 /* BKDBackdown iOSTests */,
+				79BEA5B01ACED01200A9EE06 /* Source */,
+				79BEA5BD1ACED01200A9EE06 /* Tests */,
 				79BEA5AF1ACED01200A9EE06 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,21 +141,22 @@
 		79BEA5AF1ACED01200A9EE06 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				79BEA5AE1ACED01200A9EE06 /* BKDBackdown OSX.framework */,
+				79BEA5AE1ACED01200A9EE06 /* BKDBackdown.framework */,
 				79BEA5B91ACED01200A9EE06 /* BKDBackdown OSXTests.xctest */,
-				79BEA5CD1ACED04200A9EE06 /* BKDBackdown iOS.framework */,
+				79BEA5CD1ACED04200A9EE06 /* BKDBackdown.framework */,
 				79BEA5D71ACED04200A9EE06 /* BKDBackdown iOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		79BEA5B01ACED01200A9EE06 /* BKDBackdown OSX */ = {
+		79BEA5B01ACED01200A9EE06 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				79BEA5B31ACED01200A9EE06 /* BKDBackdown OSX.h */,
+				79BEA5B31ACED01200A9EE06 /* BKDBackdown.h */,
+				79BEA8B21ACED2CF00A9EE06 /* backdown */,
 				79BEA5B11ACED01200A9EE06 /* Supporting Files */,
 			);
-			path = "BKDBackdown OSX";
+			path = Source;
 			sourceTree = "<group>";
 		};
 		79BEA5B11ACED01200A9EE06 /* Supporting Files */ = {
@@ -120,13 +167,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		79BEA5BD1ACED01200A9EE06 /* BKDBackdown OSXTests */ = {
+		79BEA5BD1ACED01200A9EE06 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				79BEA5C01ACED01200A9EE06 /* BKDBackdown_OSXTests.m */,
+				79BEA5C01ACED01200A9EE06 /* BKDBackdownTests.m */,
 				79BEA5BE1ACED01200A9EE06 /* Supporting Files */,
 			);
-			path = "BKDBackdown OSXTests";
+			path = Tests;
 			sourceTree = "<group>";
 		};
 		79BEA5BE1ACED01200A9EE06 /* Supporting Files */ = {
@@ -137,39 +184,31 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		79BEA5CE1ACED04200A9EE06 /* BKDBackdown iOS */ = {
+		79BEA8B21ACED2CF00A9EE06 /* backdown */ = {
 			isa = PBXGroup;
 			children = (
-				79BEA5D11ACED04200A9EE06 /* BKDBackdown iOS.h */,
-				79BEA5CF1ACED04200A9EE06 /* Supporting Files */,
+				79BEA8B31ACED2CF00A9EE06 /* autolink.c */,
+				79BEA8B41ACED2CF00A9EE06 /* autolink.h */,
+				79BEA8B51ACED2CF00A9EE06 /* buffer.c */,
+				79BEA8B61ACED2CF00A9EE06 /* buffer.h */,
+				79BEA8B71ACED2CF00A9EE06 /* common.h */,
+				79BEA8B81ACED2CF00A9EE06 /* escape.c */,
+				79BEA8B91ACED2CF00A9EE06 /* escape.h */,
+				79BEA8BA1ACED2CF00A9EE06 /* escape_href.c */,
+				79BEA8BB1ACED2CF00A9EE06 /* escape_html.c */,
+				79BEA8BC1ACED2CF00A9EE06 /* html.c */,
+				79BEA8BD1ACED2CF00A9EE06 /* html.h */,
+				79BEA8BE1ACED2CF00A9EE06 /* html_blocks.h */,
+				79BEA8BF1ACED2CF00A9EE06 /* html_smartypants.c */,
+				79BEA8C01ACED2CF00A9EE06 /* markdown.c */,
+				79BEA8C11ACED2CF00A9EE06 /* markdown.h */,
+				79BEA8C21ACED2CF00A9EE06 /* stack.c */,
+				79BEA8C31ACED2CF00A9EE06 /* stack.h */,
+				79BEA8C41ACED2CF00A9EE06 /* version.h */,
 			);
-			path = "BKDBackdown iOS";
-			sourceTree = "<group>";
-		};
-		79BEA5CF1ACED04200A9EE06 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				79BEA5D01ACED04200A9EE06 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		79BEA5DB1ACED04200A9EE06 /* BKDBackdown iOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				79BEA5DE1ACED04200A9EE06 /* BKDBackdown_iOSTests.m */,
-				79BEA5DC1ACED04200A9EE06 /* Supporting Files */,
-			);
-			path = "BKDBackdown iOSTests";
-			sourceTree = "<group>";
-		};
-		79BEA5DC1ACED04200A9EE06 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				79BEA5DD1ACED04200A9EE06 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
+			name = backdown;
+			path = Vendor/backdown/src;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -178,7 +217,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79BEA5B41ACED01200A9EE06 /* BKDBackdown OSX.h in Headers */,
+				79BEA8E51ACED2CF00A9EE06 /* stack.h in Headers */,
+				79BEA8D11ACED2CF00A9EE06 /* escape.h in Headers */,
+				79BEA8DB1ACED2CF00A9EE06 /* html_blocks.h in Headers */,
+				79BEA5B41ACED01200A9EE06 /* BKDBackdown.h in Headers */,
+				79BEA8E11ACED2CF00A9EE06 /* markdown.h in Headers */,
+				79BEA8E71ACED2CF00A9EE06 /* version.h in Headers */,
+				79BEA8C71ACED2CF00A9EE06 /* autolink.h in Headers */,
+				79BEA8D91ACED2CF00A9EE06 /* html.h in Headers */,
+				79BEA8CB1ACED2CF00A9EE06 /* buffer.h in Headers */,
+				79BEA8CD1ACED2CF00A9EE06 /* common.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,7 +234,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79BEA5D21ACED04200A9EE06 /* BKDBackdown iOS.h in Headers */,
+				79BEA8DA1ACED2CF00A9EE06 /* html.h in Headers */,
+				79BEA8CC1ACED2CF00A9EE06 /* buffer.h in Headers */,
+				79BEA8CE1ACED2CF00A9EE06 /* common.h in Headers */,
+				79BEA8E61ACED2CF00A9EE06 /* stack.h in Headers */,
+				79BEA8E81ACED2CF00A9EE06 /* version.h in Headers */,
+				79BEA8DC1ACED2CF00A9EE06 /* html_blocks.h in Headers */,
+				79BEA8E21ACED2CF00A9EE06 /* markdown.h in Headers */,
+				79BEA8C81ACED2CF00A9EE06 /* autolink.h in Headers */,
+				79BEA8D21ACED2CF00A9EE06 /* escape.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +264,7 @@
 			);
 			name = "BKDBackdown OSX";
 			productName = "BKDBackdown OSX";
-			productReference = 79BEA5AE1ACED01200A9EE06 /* BKDBackdown OSX.framework */;
+			productReference = 79BEA5AE1ACED01200A9EE06 /* BKDBackdown.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		79BEA5B81ACED01200A9EE06 /* BKDBackdown OSXTests */ = {
@@ -244,7 +300,7 @@
 			);
 			name = "BKDBackdown iOS";
 			productName = "BKDBackdown iOS";
-			productReference = 79BEA5CD1ACED04200A9EE06 /* BKDBackdown iOS.framework */;
+			productReference = 79BEA5CD1ACED04200A9EE06 /* BKDBackdown.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		79BEA5D61ACED04200A9EE06 /* BKDBackdown iOSTests */ = {
@@ -271,7 +327,9 @@
 		79BEA5A21ACECF3E00A9EE06 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = BKD;
 				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = co.kaneshin;
 				TargetAttributes = {
 					79BEA5AD1ACED01200A9EE06 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -343,6 +401,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79BEA8C51ACED2CF00A9EE06 /* autolink.c in Sources */,
+				79BEA8CF1ACED2CF00A9EE06 /* escape.c in Sources */,
+				79BEA8DD1ACED2CF00A9EE06 /* html_smartypants.c in Sources */,
+				79BEA8E31ACED2CF00A9EE06 /* stack.c in Sources */,
+				79BEA8D71ACED2CF00A9EE06 /* html.c in Sources */,
+				79BEA8C91ACED2CF00A9EE06 /* buffer.c in Sources */,
+				79BEA8D31ACED2CF00A9EE06 /* escape_href.c in Sources */,
+				79BEA8DF1ACED2CF00A9EE06 /* markdown.c in Sources */,
+				79BEA8D51ACED2CF00A9EE06 /* escape_html.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,7 +417,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79BEA5C11ACED01200A9EE06 /* BKDBackdown_OSXTests.m in Sources */,
+				79BEA5C11ACED01200A9EE06 /* BKDBackdownTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +425,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79BEA8C61ACED2CF00A9EE06 /* autolink.c in Sources */,
+				79BEA8D01ACED2CF00A9EE06 /* escape.c in Sources */,
+				79BEA8DE1ACED2CF00A9EE06 /* html_smartypants.c in Sources */,
+				79BEA8E41ACED2CF00A9EE06 /* stack.c in Sources */,
+				79BEA8D81ACED2CF00A9EE06 /* html.c in Sources */,
+				79BEA8CA1ACED2CF00A9EE06 /* buffer.c in Sources */,
+				79BEA8D41ACED2CF00A9EE06 /* escape_href.c in Sources */,
+				79BEA8E01ACED2CF00A9EE06 /* markdown.c in Sources */,
+				79BEA8D61ACED2CF00A9EE06 /* escape_html.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,7 +441,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79BEA5DF1ACED04200A9EE06 /* BKDBackdown_iOSTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,13 +512,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "BKDBackdown OSX/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BKDBackdown;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -486,12 +561,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "BKDBackdown OSX/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BKDBackdown;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -537,7 +612,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "BKDBackdown OSXTests/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -580,7 +655,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "BKDBackdown OSXTests/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -628,13 +703,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "BKDBackdown iOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BKDBackdown;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -676,12 +751,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "BKDBackdown iOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BKDBackdown;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -728,7 +803,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "BKDBackdown iOSTests/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Tests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -769,7 +844,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "BKDBackdown iOSTests/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Tests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
