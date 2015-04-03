@@ -47,6 +47,11 @@
 		79BEA8E61ACED2CF00A9EE06 /* stack.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEA8C31ACED2CF00A9EE06 /* stack.h */; };
 		79BEA8E71ACED2CF00A9EE06 /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEA8C41ACED2CF00A9EE06 /* version.h */; };
 		79BEA8E81ACED2CF00A9EE06 /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEA8C41ACED2CF00A9EE06 /* version.h */; };
+		79BEA8EE1ACED44600A9EE06 /* BKDMarkdown.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEA8EC1ACED44600A9EE06 /* BKDMarkdown.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79BEA8EF1ACED44600A9EE06 /* BKDMarkdown.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEA8EC1ACED44600A9EE06 /* BKDMarkdown.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79BEA8F01ACED44600A9EE06 /* BKDMarkdown.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BEA8ED1ACED44600A9EE06 /* BKDMarkdown.m */; };
+		79BEA8F11ACED44600A9EE06 /* BKDMarkdown.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BEA8ED1ACED44600A9EE06 /* BKDMarkdown.m */; };
+		79BEA9AE1ACEFD0600A9EE06 /* BKDBackdown.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEA5B31ACED01200A9EE06 /* BKDBackdown.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +98,8 @@
 		79BEA8C21ACED2CF00A9EE06 /* stack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stack.c; sourceTree = "<group>"; };
 		79BEA8C31ACED2CF00A9EE06 /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
 		79BEA8C41ACED2CF00A9EE06 /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		79BEA8EC1ACED44600A9EE06 /* BKDMarkdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKDMarkdown.h; sourceTree = "<group>"; };
+		79BEA8ED1ACED44600A9EE06 /* BKDMarkdown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKDMarkdown.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +160,8 @@
 			isa = PBXGroup;
 			children = (
 				79BEA5B31ACED01200A9EE06 /* BKDBackdown.h */,
+				79BEA8EC1ACED44600A9EE06 /* BKDMarkdown.h */,
+				79BEA8ED1ACED44600A9EE06 /* BKDMarkdown.m */,
 				79BEA8B21ACED2CF00A9EE06 /* backdown */,
 				79BEA5B11ACED01200A9EE06 /* Supporting Files */,
 			);
@@ -218,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79BEA8E51ACED2CF00A9EE06 /* stack.h in Headers */,
+				79BEA8EE1ACED44600A9EE06 /* BKDMarkdown.h in Headers */,
 				79BEA8D11ACED2CF00A9EE06 /* escape.h in Headers */,
 				79BEA8DB1ACED2CF00A9EE06 /* html_blocks.h in Headers */,
 				79BEA5B41ACED01200A9EE06 /* BKDBackdown.h in Headers */,
@@ -234,6 +244,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79BEA9AE1ACEFD0600A9EE06 /* BKDBackdown.h in Headers */,
+				79BEA8EF1ACED44600A9EE06 /* BKDMarkdown.h in Headers */,
 				79BEA8DA1ACED2CF00A9EE06 /* html.h in Headers */,
 				79BEA8CC1ACED2CF00A9EE06 /* buffer.h in Headers */,
 				79BEA8CE1ACED2CF00A9EE06 /* common.h in Headers */,
@@ -409,6 +421,7 @@
 				79BEA8C91ACED2CF00A9EE06 /* buffer.c in Sources */,
 				79BEA8D31ACED2CF00A9EE06 /* escape_href.c in Sources */,
 				79BEA8DF1ACED2CF00A9EE06 /* markdown.c in Sources */,
+				79BEA8F01ACED44600A9EE06 /* BKDMarkdown.m in Sources */,
 				79BEA8D51ACED2CF00A9EE06 /* escape_html.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +446,7 @@
 				79BEA8CA1ACED2CF00A9EE06 /* buffer.c in Sources */,
 				79BEA8D41ACED2CF00A9EE06 /* escape_href.c in Sources */,
 				79BEA8E01ACED2CF00A9EE06 /* markdown.c in Sources */,
+				79BEA8F11ACED44600A9EE06 /* BKDMarkdown.m in Sources */,
 				79BEA8D61ACED2CF00A9EE06 /* escape_html.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -873,6 +887,7 @@
 				79BEA5C41ACED01200A9EE06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79BEA5C51ACED01200A9EE06 /* Build configuration list for PBXNativeTarget "BKDBackdown OSXTests" */ = {
 			isa = XCConfigurationList;
@@ -881,6 +896,7 @@
 				79BEA5C71ACED01200A9EE06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79BEA5E01ACED04200A9EE06 /* Build configuration list for PBXNativeTarget "BKDBackdown iOS" */ = {
 			isa = XCConfigurationList;
@@ -889,6 +905,7 @@
 				79BEA5E21ACED04200A9EE06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79BEA5E31ACED04200A9EE06 /* Build configuration list for PBXNativeTarget "BKDBackdown iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -897,6 +914,7 @@
 				79BEA5E51ACED04200A9EE06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

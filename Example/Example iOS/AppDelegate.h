@@ -1,4 +1,4 @@
-// BKDBackdown.h
+// AppDelegate.h
 //
 // Copyright (c) 2015 Shintaro Kaneko
 //
@@ -20,9 +20,9 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-FOUNDATION_EXPORT double BKDBackdownVersionNumber;
-FOUNDATION_EXPORT const unsigned char BKDBackdownVersionString[];
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@property (strong, nonatomic) UIWindow *window;
+@end
 
-#import <BKDBackdown/BKDMarkdown.h>

@@ -1,4 +1,4 @@
-// BKDBackdown.h
+// ViewController.m
 //
 // Copyright (c) 2015 Shintaro Kaneko
 //
@@ -20,9 +20,20 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import <Foundation/Foundation.h>
+#import "ViewController.h"
 
-FOUNDATION_EXPORT double BKDBackdownVersionNumber;
-FOUNDATION_EXPORT const unsigned char BKDBackdownVersionString[];
+#import <BKDBackdown/BKDBackdown.h>
 
-#import <BKDBackdown/BKDMarkdown.h>
+@implementation ViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    BKDMarkdown *markdown = [[BKDMarkdown alloc] initWithText:@"# Foo\n\n- a\n- b"];
+    NSLog(@"%@", markdown.html);
+}
+
+- (void)setRepresentedObject:(id)representedObject {
+    [super setRepresentedObject:representedObject];
+}
+
+@end
