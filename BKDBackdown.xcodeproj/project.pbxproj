@@ -6,20 +6,167 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		79BEA5B41ACED01200A9EE06 /* BKDBackdown OSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEA5B31ACED01200A9EE06 /* BKDBackdown OSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79BEA5BA1ACED01200A9EE06 /* BKDBackdown OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BEA5AE1ACED01200A9EE06 /* BKDBackdown OSX.framework */; };
+		79BEA5C11ACED01200A9EE06 /* BKDBackdown_OSXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BEA5C01ACED01200A9EE06 /* BKDBackdown_OSXTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79BEA5BB1ACED01200A9EE06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79BEA5A21ACECF3E00A9EE06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79BEA5AD1ACED01200A9EE06;
+			remoteInfo = "BKDBackdown OSX";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79BEA5AE1ACED01200A9EE06 /* BKDBackdown OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "BKDBackdown OSX.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79BEA5B21ACED01200A9EE06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79BEA5B31ACED01200A9EE06 /* BKDBackdown OSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BKDBackdown OSX.h"; sourceTree = "<group>"; };
+		79BEA5B91ACED01200A9EE06 /* BKDBackdown OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BKDBackdown OSXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79BEA5BF1ACED01200A9EE06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79BEA5C01ACED01200A9EE06 /* BKDBackdown_OSXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BKDBackdown_OSXTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79BEA5AA1ACED01200A9EE06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79BEA5B61ACED01200A9EE06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79BEA5BA1ACED01200A9EE06 /* BKDBackdown OSX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
 		79BEA5A11ACECF3E00A9EE06 = {
 			isa = PBXGroup;
 			children = (
+				79BEA5B01ACED01200A9EE06 /* BKDBackdown OSX */,
+				79BEA5BD1ACED01200A9EE06 /* BKDBackdown OSXTests */,
+				79BEA5AF1ACED01200A9EE06 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
+		79BEA5AF1ACED01200A9EE06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79BEA5AE1ACED01200A9EE06 /* BKDBackdown OSX.framework */,
+				79BEA5B91ACED01200A9EE06 /* BKDBackdown OSXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79BEA5B01ACED01200A9EE06 /* BKDBackdown OSX */ = {
+			isa = PBXGroup;
+			children = (
+				79BEA5B31ACED01200A9EE06 /* BKDBackdown OSX.h */,
+				79BEA5B11ACED01200A9EE06 /* Supporting Files */,
+			);
+			path = "BKDBackdown OSX";
+			sourceTree = "<group>";
+		};
+		79BEA5B11ACED01200A9EE06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79BEA5B21ACED01200A9EE06 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79BEA5BD1ACED01200A9EE06 /* BKDBackdown OSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				79BEA5C01ACED01200A9EE06 /* BKDBackdown_OSXTests.m */,
+				79BEA5BE1ACED01200A9EE06 /* Supporting Files */,
+			);
+			path = "BKDBackdown OSXTests";
+			sourceTree = "<group>";
+		};
+		79BEA5BE1ACED01200A9EE06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79BEA5BF1ACED01200A9EE06 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		79BEA5AB1ACED01200A9EE06 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79BEA5B41ACED01200A9EE06 /* BKDBackdown OSX.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		79BEA5AD1ACED01200A9EE06 /* BKDBackdown OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79BEA5C21ACED01200A9EE06 /* Build configuration list for PBXNativeTarget "BKDBackdown OSX" */;
+			buildPhases = (
+				79BEA5A91ACED01200A9EE06 /* Sources */,
+				79BEA5AA1ACED01200A9EE06 /* Frameworks */,
+				79BEA5AB1ACED01200A9EE06 /* Headers */,
+				79BEA5AC1ACED01200A9EE06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BKDBackdown OSX";
+			productName = "BKDBackdown OSX";
+			productReference = 79BEA5AE1ACED01200A9EE06 /* BKDBackdown OSX.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		79BEA5B81ACED01200A9EE06 /* BKDBackdown OSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79BEA5C51ACED01200A9EE06 /* Build configuration list for PBXNativeTarget "BKDBackdown OSXTests" */;
+			buildPhases = (
+				79BEA5B51ACED01200A9EE06 /* Sources */,
+				79BEA5B61ACED01200A9EE06 /* Frameworks */,
+				79BEA5B71ACED01200A9EE06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79BEA5BC1ACED01200A9EE06 /* PBXTargetDependency */,
+			);
+			name = "BKDBackdown OSXTests";
+			productName = "BKDBackdown OSXTests";
+			productReference = 79BEA5B91ACED01200A9EE06 /* BKDBackdown OSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		79BEA5A21ACECF3E00A9EE06 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
+				TargetAttributes = {
+					79BEA5AD1ACED01200A9EE06 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					79BEA5B81ACED01200A9EE06 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
 			};
 			buildConfigurationList = 79BEA5A51ACECF3E00A9EE06 /* Build configuration list for PBXProject "BKDBackdown" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -29,12 +176,58 @@
 				en,
 			);
 			mainGroup = 79BEA5A11ACECF3E00A9EE06;
+			productRefGroup = 79BEA5AF1ACED01200A9EE06 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				79BEA5AD1ACED01200A9EE06 /* BKDBackdown OSX */,
+				79BEA5B81ACED01200A9EE06 /* BKDBackdown OSXTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79BEA5AC1ACED01200A9EE06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79BEA5B71ACED01200A9EE06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79BEA5A91ACED01200A9EE06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79BEA5B51ACED01200A9EE06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79BEA5C11ACED01200A9EE06 /* BKDBackdown_OSXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79BEA5BC1ACED01200A9EE06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79BEA5AD1ACED01200A9EE06 /* BKDBackdown OSX */;
+			targetProxy = 79BEA5BB1ACED01200A9EE06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		79BEA5A61ACECF3E00A9EE06 /* Debug */ = {
@@ -49,6 +242,198 @@
 			};
 			name = Release;
 		};
+		79BEA5C31ACED01200A9EE06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "BKDBackdown OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79BEA5C41ACED01200A9EE06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "BKDBackdown OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		79BEA5C61ACED01200A9EE06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "BKDBackdown OSXTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		79BEA5C71ACED01200A9EE06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "BKDBackdown OSXTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -60,6 +445,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		79BEA5C21ACED01200A9EE06 /* Build configuration list for PBXNativeTarget "BKDBackdown OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79BEA5C31ACED01200A9EE06 /* Debug */,
+				79BEA5C41ACED01200A9EE06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79BEA5C51ACED01200A9EE06 /* Build configuration list for PBXNativeTarget "BKDBackdown OSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79BEA5C61ACED01200A9EE06 /* Debug */,
+				79BEA5C71ACED01200A9EE06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
