@@ -1,5 +1,7 @@
 # BKDBackdown
 
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+
 BKDBackdown is Markdown parser for OSX and iOS.
 
 The framework uses [backdown](https://github.com/backdown/backdown) sources to parse markdown text.
