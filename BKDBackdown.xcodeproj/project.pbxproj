@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7947B5F71AE154000024CAD7 /* BKDBackdownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BEA5C01ACED01200A9EE06 /* BKDBackdownTests.m */; };
 		79BEA5B41ACED01200A9EE06 /* BKDBackdown.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEA5B31ACED01200A9EE06 /* BKDBackdown.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79BEA5BA1ACED01200A9EE06 /* BKDBackdown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BEA5AE1ACED01200A9EE06 /* BKDBackdown.framework */; };
 		79BEA5C11ACED01200A9EE06 /* BKDBackdownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BEA5C01ACED01200A9EE06 /* BKDBackdownTests.m */; };
@@ -340,7 +341,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = BKD;
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = co.kaneshin;
 				TargetAttributes = {
 					79BEA5AD1ACED01200A9EE06 = {
@@ -455,6 +456,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7947B5F71AE154000024CAD7 /* BKDBackdownTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,6 +479,7 @@
 		79BEA5A61ACECF3E00A9EE06 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
 		};
@@ -797,6 +800,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -844,6 +848,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;

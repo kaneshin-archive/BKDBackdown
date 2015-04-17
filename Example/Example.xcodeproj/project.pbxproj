@@ -630,6 +630,7 @@
 				79BEA97B1ACEFBA900A9EE06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79BEA9A11ACEFBBB00A9EE06 /* Build configuration list for PBXNativeTarget "Example OSX" */ = {
 			isa = XCConfigurationList;
@@ -638,6 +639,7 @@
 				79BEA9A31ACEFBBB00A9EE06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
