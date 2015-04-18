@@ -31,7 +31,7 @@ NSLog(@"%@", markdown.html); // => <h1>Hello world</h1>
 
 ```swift
 let markdown = BKDMarkdown(text: "# Hello world")
-println(parser.html)  // => <h1>Hello world</h1>
+println(markdown.html)  // => <h1>Hello world</h1>
 ```
 
 ## License
