@@ -20,20 +20,6 @@
                ReferencedContainer = "container:BKDBackdown.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "79BEA5D61ACED04200A9EE06"
-               BuildableName = "BKDBackdown iOSTests.xctest"
-               BlueprintName = "BKDBackdown iOSTests"
-               ReferencedContainer = "container:BKDBackdown.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -47,8 +33,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "79BEA5D61ACED04200A9EE06"
-               BuildableName = "BKDBackdown iOSTests.xctest"
-               BlueprintName = "BKDBackdown iOSTests"
+               BuildableName = "BKDBackdown iOS Tests.xctest"
+               BlueprintName = "BKDBackdown iOS Tests"
                ReferencedContainer = "container:BKDBackdown.xcodeproj">
             </BuildableReference>
          </TestableReference>

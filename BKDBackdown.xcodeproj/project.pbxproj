@@ -76,11 +76,11 @@
 		79BEA5AE1ACED01200A9EE06 /* BKDBackdown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BKDBackdown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79BEA5B21ACED01200A9EE06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79BEA5B31ACED01200A9EE06 /* BKDBackdown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BKDBackdown.h; sourceTree = "<group>"; };
-		79BEA5B91ACED01200A9EE06 /* BKDBackdown OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BKDBackdown OSXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79BEA5B91ACED01200A9EE06 /* BKDBackdown OSX Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BKDBackdown OSX Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79BEA5BF1ACED01200A9EE06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79BEA5C01ACED01200A9EE06 /* BKDBackdownTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BKDBackdownTests.m; sourceTree = "<group>"; };
 		79BEA5CD1ACED04200A9EE06 /* BKDBackdown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BKDBackdown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		79BEA5D71ACED04200A9EE06 /* BKDBackdown iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BKDBackdown iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79BEA5D71ACED04200A9EE06 /* BKDBackdown iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BKDBackdown iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79BEA8B31ACED2CF00A9EE06 /* autolink.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = autolink.c; sourceTree = "<group>"; };
 		79BEA8B41ACED2CF00A9EE06 /* autolink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = autolink.h; sourceTree = "<group>"; };
 		79BEA8B51ACED2CF00A9EE06 /* buffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = buffer.c; sourceTree = "<group>"; };
@@ -150,9 +150,9 @@
 			isa = PBXGroup;
 			children = (
 				79BEA5AE1ACED01200A9EE06 /* BKDBackdown.framework */,
-				79BEA5B91ACED01200A9EE06 /* BKDBackdown OSXTests.xctest */,
+				79BEA5B91ACED01200A9EE06 /* BKDBackdown OSX Tests.xctest */,
 				79BEA5CD1ACED04200A9EE06 /* BKDBackdown.framework */,
-				79BEA5D71ACED04200A9EE06 /* BKDBackdown iOSTests.xctest */,
+				79BEA5D71ACED04200A9EE06 /* BKDBackdown iOS Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -280,9 +280,9 @@
 			productReference = 79BEA5AE1ACED01200A9EE06 /* BKDBackdown.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		79BEA5B81ACED01200A9EE06 /* BKDBackdown OSXTests */ = {
+		79BEA5B81ACED01200A9EE06 /* BKDBackdown OSX Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 79BEA5C51ACED01200A9EE06 /* Build configuration list for PBXNativeTarget "BKDBackdown OSXTests" */;
+			buildConfigurationList = 79BEA5C51ACED01200A9EE06 /* Build configuration list for PBXNativeTarget "BKDBackdown OSX Tests" */;
 			buildPhases = (
 				79BEA5B51ACED01200A9EE06 /* Sources */,
 				79BEA5B61ACED01200A9EE06 /* Frameworks */,
@@ -293,9 +293,9 @@
 			dependencies = (
 				79BEA5BC1ACED01200A9EE06 /* PBXTargetDependency */,
 			);
-			name = "BKDBackdown OSXTests";
-			productName = "BKDBackdown OSXTests";
-			productReference = 79BEA5B91ACED01200A9EE06 /* BKDBackdown OSXTests.xctest */;
+			name = "BKDBackdown OSX Tests";
+			productName = "BKDBackdown OSX Tests";
+			productReference = 79BEA5B91ACED01200A9EE06 /* BKDBackdown OSX Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		79BEA5CC1ACED04200A9EE06 /* BKDBackdown iOS */ = {
@@ -316,9 +316,9 @@
 			productReference = 79BEA5CD1ACED04200A9EE06 /* BKDBackdown.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		79BEA5D61ACED04200A9EE06 /* BKDBackdown iOSTests */ = {
+		79BEA5D61ACED04200A9EE06 /* BKDBackdown iOS Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 79BEA5E31ACED04200A9EE06 /* Build configuration list for PBXNativeTarget "BKDBackdown iOSTests" */;
+			buildConfigurationList = 79BEA5E31ACED04200A9EE06 /* Build configuration list for PBXNativeTarget "BKDBackdown iOS Tests" */;
 			buildPhases = (
 				79BEA5D31ACED04200A9EE06 /* Sources */,
 				79BEA5D41ACED04200A9EE06 /* Frameworks */,
@@ -329,9 +329,9 @@
 			dependencies = (
 				79BEA5DA1ACED04200A9EE06 /* PBXTargetDependency */,
 			);
-			name = "BKDBackdown iOSTests";
-			productName = "BKDBackdown iOSTests";
-			productReference = 79BEA5D71ACED04200A9EE06 /* BKDBackdown iOSTests.xctest */;
+			name = "BKDBackdown iOS Tests";
+			productName = "BKDBackdown iOS Tests";
+			productReference = 79BEA5D71ACED04200A9EE06 /* BKDBackdown iOS Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -372,8 +372,8 @@
 			targets = (
 				79BEA5AD1ACED01200A9EE06 /* BKDBackdown OSX */,
 				79BEA5CC1ACED04200A9EE06 /* BKDBackdown iOS */,
-				79BEA5B81ACED01200A9EE06 /* BKDBackdown OSXTests */,
-				79BEA5D61ACED04200A9EE06 /* BKDBackdown iOSTests */,
+				79BEA5B81ACED01200A9EE06 /* BKDBackdown OSX Tests */,
+				79BEA5D61ACED04200A9EE06 /* BKDBackdown iOS Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -894,7 +894,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		79BEA5C51ACED01200A9EE06 /* Build configuration list for PBXNativeTarget "BKDBackdown OSXTests" */ = {
+		79BEA5C51ACED01200A9EE06 /* Build configuration list for PBXNativeTarget "BKDBackdown OSX Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				79BEA5C61ACED01200A9EE06 /* Debug */,
@@ -912,7 +912,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		79BEA5E31ACED04200A9EE06 /* Build configuration list for PBXNativeTarget "BKDBackdown iOSTests" */ = {
+		79BEA5E31ACED04200A9EE06 /* Build configuration list for PBXNativeTarget "BKDBackdown iOS Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				79BEA5E41ACED04200A9EE06 /* Debug */,
